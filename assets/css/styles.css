@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "MyParagraphFont";
+  src: url("../font/Edu_TAS_Beginner/EduTASBeginner-VariableFont_wght.ttf")
+    format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 800px;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header h1 {
+  background-image: url(../figurs/html_banner.jpg);
+  color: white;
+  height: 40px;
+}
+
+main {
+  background-color: antiquewhite;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+table,
+th,
+td {
+  width: 700px;
+  font-size: 15px;
+  border: 1px solid hsla(230, 80%, 80%, 0.6);
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+td {
+  height: 30px;
+  overflow: hidden;
+}
+table td.shrink {
+  white-space: nowrap;
+}
+table td.expand {
+  width: 99%;
+}
+
+.des {
+  text-align: left;
+}
+.des span {
+  background-color: hsla(230, 80%, 80%, 0.6);
+  font-family: monospace;
+}
+.tag span {
+  background-color: rgba(126, 162, 202, 0.5);
+  font-family: "MyParagraphFont";
+  font-size: large;
+}
+footer {
+  background-color: black;
+}
+footer h3 {
+  color: white;
+}
+
+th {
+  background-color: aquamarine;
+}
